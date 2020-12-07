@@ -1,5 +1,5 @@
 # API-The-Cleveland-Museum
-Estudo no uso e consumo de dados de um API.
+Estudo no consumo de dados de uma API.
 
 Neste projeto utilizei bootstrap para fazer o Front-end e PHP para requisições e manuseio das informações da API.
 

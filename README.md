@@ -5,12 +5,16 @@ Neste projeto utilizei bootstrap para fazer o Front-end e PHP para requisições
 
 Tela inicial do sistema.
 ![Tela Inicial](/readme-data/telaInicial.png)
+A rota para essa tela é a "/home", podendo receber parametros de pesquisa search, type, limit e departament.<br>
+Exemplo de rota para pesquisar 5 obras do tipo pintura e relacionadas a água: "/home?q=water&type=Painting&limit=5" 
 
 Opções para filtrar obras.
 ![Filtro de obras](/readme-data/filtro.png)
 
 Tela das obras.
 ![Tela Obra](/readme-data/telaArte.png)
+Esta tela recebe uma rota dinâmica baseada no id único de cada obra.<br>
+Exemplo de rota para a obra acima: "/home/art?id=1937.577"
 
 ![Citações](/readme-data/citations.gif)
 
